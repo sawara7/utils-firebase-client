@@ -1,4 +1,5 @@
 import firebase from 'firebase'
+import 'firebase/auth'
 import { getFuturePath } from 'firebase-utils-common'
 
 export function initializeFirebase (callback: (initialized: boolean) => void) {
