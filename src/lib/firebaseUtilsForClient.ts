@@ -1,5 +1,5 @@
 import firebase from 'firebase'
-import { getFuturePath } from './realtimedatabasePath'
+import { getFuturePath } from 'firebase-utils-common'
 
 export function initializeFirebase (callback: (initialized: boolean) => void) {
     fetch('/__/firebase/init.json').then(async response => {
