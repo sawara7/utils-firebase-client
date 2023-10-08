@@ -35,7 +35,7 @@ function loginFirebase() {
 exports.loginFirebase = loginFirebase;
 function getFutures(cb) {
     firebase_1.default.database()
-        .ref(firebase_utils_common_1.getFuturePath(Date.now()))
+        .ref((0, firebase_utils_common_1.getFuturePath)(Date.now()))
         .on("value", (snapshot) => {
         const res = snapshot.val();
         cb(res);

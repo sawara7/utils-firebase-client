@@ -1,28 +1,18 @@
 {
-  "name": "firebase-utils-client",
-  "version": "0.0.1",
-  "description": "firebase-utils for client",
+  "name": "utils-firebase-client",
+  "version": "0.0.2",
   "main": "dist/index.js",
+  "author": "sawara7",
+  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
-  "devDependencies": {
-    "typescript": "^4.3.5"
-  },
-  "bundleDependencies": false,
+  "bundleDependencies": [],
   "dependencies": {
-    "firebase": "^8.8.1",
-    "firebase-utils-common": "github:sawara7/firebase-utils-common"
+    "firebase": "^10.4.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sawara7/firebase-utils-client.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sawara7/firebase-utils-client/issues"
-  },
-  "homepage": "https://github.com/sawara7/firebase-utils-client#readme"
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
